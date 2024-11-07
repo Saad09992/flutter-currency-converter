@@ -14,13 +14,6 @@ class _CurrencyConverterState extends State<CurrencyConverterPage> {
       });
     }
 
-    @override
-    void dispose() {
-      textEditingController.dispose();
-      print("dispose called");
-      super.dispose();
-    }
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
